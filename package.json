@@ -5,20 +5,18 @@
   "main": "src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "rollup -c --watch",
-    "reload": "livereload 'build'",
-    "interact": "npm-run-all --parallel dev reload"
   },
   "author": "Ivan Dmitrievsky",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-es2015-rollup": "^3.0.0",
-    "livereload": "^0.6.0",
-    "npm-run-all": "^4.0.1",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "precss": "^1.4.0",
     "rollup": "^0.41.4",
     "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-eslint": "^3.0.0",
-    "rollup-plugin-postcss": "^0.2.0",
-    "rollup-watch": "^3.2.2"
+    "rollup-plugin-eslint": "^3.0.0"
   }
 }
